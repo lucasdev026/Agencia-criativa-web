@@ -1,0 +1,102 @@
+img {
+  width: 8%;
+  background-color: rgba(248, 15, 3, 0.968627451);
+}
+
+.cabecalho {
+  background: rgba(248, 15, 3, 0.968627451);
+  color: #f9f9f9;
+  display: grid;
+  justify-content: center;
+  padding: 5.3%;
+  border-radius: 20px;
+  box-shadow: 0 6.5px 11px rgba(0, 0, 0, 0.414);
+}
+.cabecalho__title {
+  text-align: center;
+  font-size: 42px;
+}
+.cabecalho__subtitulo {
+  text-align: center;
+  font-size: 25.2px;
+}
+
+.linha__linha--primaria {
+  position: relative;
+  top: 20px;
+}
+
+.linha__linha--secundaria {
+  position: relative;
+  bottom: 20px;
+}
+
+.login {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  justify-content: center;
+  background: rgb(0, 144, 134);
+  border-radius: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #f9f9f9;
+  box-shadow: 0 6.5px 11px rgba(0, 0, 0, 0.414);
+}
+.login__titulo {
+  font-size: 18px;
+  display: grid;
+  justify-content: center;
+}
+.login__subtitulo {
+  display: grid;
+  justify-content: center;
+}
+.login__email {
+  font-size: 16.6666666667px;
+}
+.login__senha {
+  font-size: 16.6666666667px;
+}
+.login:hover {
+  text-decoration: underline;
+}
+.login__button__azul {
+  border-radius: 20px;
+}
+.login input {
+  border-radius: 20px;
+}
+.login button {
+  position: relative;
+  margin-left: 56px;
+  position: relative;
+  right: 24px;
+}
+
+.about {
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  gap: 0.1px;
+}
+.about__us {
+  font-size: 30px;
+  display: grid;
+  justify-content: center;
+}
+.about__texto {
+  display: grid;
+  justify-content: center;
+}
+
+.rodape {
+  display: grid;
+  justify-content: center;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=estilos.css.map */

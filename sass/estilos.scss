@@ -1,3 +1,123 @@
-@use 'variaveis';
-@use 'mixins';
+$corprimario: #f80f03f7;
+$espacamento-padrao: 20px;
+$largura: 8%;
+$cor-fonte: #f9f9f9;
+$centralizado: center;
+$fonte: 30px;
+$margem: 100px;
+$fonte-for: 18px;
+$espaco: 5.3%;
+$borda: 20px;
+$corsecundario: rgb(0, 144, 134);
+$estilo: italic;
+$margem-secundario: 500px;
+$largura--secudanrio: 50px;
+$espacamento-medio: $espacamento-padrao * 5;
+$position: relative;
+$sombra-suave: 0 6.5px 11px rgba(0, 0, 0, 0.414);
 
+img {
+  width: $largura;
+  background-color: $corprimario;
+}
+
+.cabecalho {
+  background: $corprimario;
+  color: $cor-fonte;
+  display: grid;
+  justify-content: center;
+  padding: $espaco;
+  border-radius: $borda;
+  box-shadow: $sombra-suave;
+
+  &__title {
+    text-align: $centralizado;
+    font-size: $fonte * 1.4;
+  }
+
+  &__subtitulo {
+    text-align: $centralizado;
+    font-size: $fonte-for * 1.4;
+  }
+}
+
+.linha__linha--primaria {
+  position: relative;
+  top: $espacamento-padrao;
+}
+.linha__linha--secundaria {
+  position: relative;
+  bottom: $espacamento-padrao;
+}
+
+.login {
+  margin-top: $margem;
+  margin-bottom: $margem;
+  display: grid;
+  justify-content: $centralizado;
+  background: $corsecundario;
+  border-radius: $borda;
+  padding-bottom: $largura--secudanrio;
+  padding-top: $largura--secudanrio;
+  margin-left: $espacamento-medio;
+  margin-right: $espacamento-medio;
+  color: $cor-fonte;
+  box-shadow: $sombra-suave;
+
+  &__titulo {
+    font-size: $fonte-for;
+    display: grid;
+    justify-content: $centralizado;
+  }
+  &__subtitulo {
+    display: grid;
+    justify-content: $centralizado;
+  }
+  &__email {
+    font-size: $fonte / 1.8;
+  }
+  &__senha {
+    font-size: $fonte / 1.8;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+  &__button__azul {
+    border-radius: $borda;
+  }
+
+  input {
+    border-radius: $borda;
+  }
+  button {
+    position: $position;
+    margin-left: $espacamento-padrao * 2.8;
+    position: relative;
+    right: $espacamento-padrao * 1.2;
+  }
+}
+
+.about {
+  display: grid;
+  justify-content: $centralizado;
+  padding: $espacamento-padrao;
+  flex-direction: column;
+  gap: 0.1px;
+
+  &__us {
+    font-size: $fonte;
+    display: grid;
+    justify-content: $centralizado;
+  }
+  &__texto {
+    display: grid;
+    justify-content: $centralizado;
+  }
+}
+
+.rodape {
+  display: grid;
+  justify-content: $centralizado;
+  font-style: $estilo;
+}
