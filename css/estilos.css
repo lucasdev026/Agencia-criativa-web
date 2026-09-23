@@ -14,7 +14,7 @@ img {
 }
 .cabecalho__title {
   text-align: center;
-  font-size: 42px;
+  font-size: 33px;
 }
 .cabecalho__subtitulo {
   text-align: center;
@@ -49,16 +49,17 @@ img {
   font-size: 18px;
   display: grid;
   justify-content: center;
+  font-size: 20px;
 }
 .login__subtitulo {
   display: grid;
   justify-content: center;
 }
 .login__email {
-  font-size: 16.6666666667px;
+  font-size: 50px/1.5;
 }
 .login__senha {
-  font-size: 16.6666666667px;
+  font-size: 50px/1.5;
 }
 .login:hover {
   text-decoration: underline;
@@ -66,12 +67,19 @@ img {
 .login__button__azul {
   border-radius: 20px;
 }
+.login .checkbox {
+  position: relative;
+}
+.login .checkbox--primario {
+  position: relative;
+  top: 0.5vh;
+}
 .login input {
   border-radius: 20px;
 }
 .login button {
   position: relative;
-  margin-left: 56px;
+  margin-left: 46px;
   position: relative;
   right: 24px;
 }

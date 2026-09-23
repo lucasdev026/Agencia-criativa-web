@@ -16,6 +16,8 @@ $espacamento-medio: $espacamento-padrao * 5;
 $position: relative;
 $sombra-suave: 0 6.5px 11px rgba(0, 0, 0, 0.414);
 
+
+
 img {
   width: $largura;
   background-color: $corprimario;
@@ -32,7 +34,7 @@ img {
 
   &__title {
     text-align: $centralizado;
-    font-size: $fonte * 1.4;
+    font-size: $fonte * 1.1;
   }
 
   &__subtitulo {
@@ -68,16 +70,18 @@ img {
     font-size: $fonte-for;
     display: grid;
     justify-content: $centralizado;
+    font-size: 20px;
+
   }
   &__subtitulo {
     display: grid;
     justify-content: $centralizado;
   }
   &__email {
-    font-size: $fonte / 1.8;
+    font-size: 50px / 1.5;
   }
   &__senha {
-    font-size: $fonte / 1.8;
+    font-size: 50px / 1.5;
   }
 
   &:hover {
@@ -87,12 +91,20 @@ img {
     border-radius: $borda;
   }
 
+.checkbox{
+  position: relative;
+ }
+.checkbox--primario{
+  position: relative;
+  top: 0.5vh;
+ }
+
   input {
     border-radius: $borda;
   }
   button {
     position: $position;
-    margin-left: $espacamento-padrao * 2.8;
+    margin-left: $espacamento-padrao * 2.3;
     position: relative;
     right: $espacamento-padrao * 1.2;
   }
