@@ -1,8 +1,3 @@
-img {
-  width: 8%;
-  background-color: rgba(248, 15, 3, 0.968627451);
-}
-
 .cabecalho {
   background: rgba(248, 15, 3, 0.968627451);
   color: #f9f9f9;
@@ -19,16 +14,6 @@ img {
 .cabecalho__subtitulo {
   text-align: center;
   font-size: 25.2px;
-}
-
-.linha__linha--primaria {
-  position: relative;
-  top: 20px;
-}
-
-.linha__linha--secundaria {
-  position: relative;
-  bottom: 20px;
 }
 
 .login {
@@ -56,10 +41,10 @@ img {
   justify-content: center;
 }
 .login__email {
-  font-size: 50px/1.5;
+  font-size: 45px/1.5;
 }
 .login__senha {
-  font-size: 50px/1.5;
+  font-size: 45px/1.5;
 }
 .login:hover {
   text-decoration: underline;
@@ -105,6 +90,20 @@ img {
   display: grid;
   justify-content: center;
   font-style: italic;
+}
+
+img {
+  width: 8%;
+}
+
+.linha__linha--primaria {
+  position: relative;
+  top: 20px;
+}
+
+.linha__linha--secundaria {
+  position: relative;
+  bottom: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,19 @@
+@use "variaveis";
+
+.about {
+  display: grid;
+  justify-content: variaveis.$centralizado;
+  padding: variaveis.$espacamento-padrao;
+  flex-direction: column;
+  gap: 0.1px;
+
+  &__us {
+    font-size: variaveis.$fonte;
+    display: grid;
+    justify-content: variaveis.$centralizado;
+  }
+  &__texto {
+    display: grid;
+    justify-content: variaveis.$centralizado;
+  }
+}

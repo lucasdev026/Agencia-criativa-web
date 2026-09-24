@@ -1,0 +1,8 @@
+@use 'variaveis';
+
+.rodape {
+  display: grid;
+  justify-content: variaveis.$centralizado;
+  font-style: variaveis.$estilo;
+}
+

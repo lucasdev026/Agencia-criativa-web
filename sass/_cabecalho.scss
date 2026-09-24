@@ -1,0 +1,21 @@
+@use "variaveis";
+
+.cabecalho {
+  background: variaveis.$cor-primaria;
+  color: variaveis.$cor-fonte;
+  display: grid;
+  justify-content: center;
+  padding: variaveis.$espaco;
+  border-radius: variaveis.$borda;
+  box-shadow: variaveis.$sombra-suave;
+
+  &__title {
+    text-align: variaveis.$centralizado;
+    font-size: variaveis.$fonte * 1.1;
+  }
+
+  &__subtitulo {
+    text-align: variaveis.$centralizado;
+    font-size: variaveis.$fonte-for * 1.4;
+  }
+}

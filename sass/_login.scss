@@ -1,0 +1,59 @@
+@use 'variaveis';
+
+
+.login {
+  margin-top: variaveis.$margem;
+  margin-bottom: variaveis.$margem;
+  display: grid;
+  justify-content: variaveis.$centralizado;
+  background: variaveis.$cor-secundario;
+  border-radius: variaveis.$borda;
+  padding-bottom: variaveis.$largura--secundario;
+  padding-top: variaveis.$largura--secundario;
+  margin-left: variaveis.$espacamento-medio;
+  margin-right: variaveis.$espacamento-medio;
+  color: variaveis.$cor-fonte;
+  box-shadow: variaveis.$sombra-suave;
+
+  &__titulo {
+    font-size: variaveis.$fonte-for;
+    display: grid;
+    justify-content: variaveis.$centralizado;
+    font-size: 20px;
+  }
+  &__subtitulo {
+    display: grid;
+    justify-content: variaveis.$centralizado;
+  }
+  &__email {
+    font-size: 45px / 1.5;
+  }
+  &__senha {
+    font-size: 45px / 1.5;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+  &__button__azul {
+    border-radius: variaveis.$borda;
+  }
+
+  .checkbox {
+    position: relative;
+  }
+  .checkbox--primario {
+    position: relative;
+    top: 0.5vh;
+  }
+
+  input {
+    border-radius: variaveis.$borda;
+  }
+  button {
+    position: variaveis.$position;
+    margin-left: variaveis.$espacamento-padrao * 2.3;
+    position: relative;
+    right: variaveis.$espacamento-padrao * 1.2;
+  }
+}
