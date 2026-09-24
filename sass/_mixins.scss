@@ -1,0 +1,24 @@
+@use "variaveis";
+
+@mixin borda {
+  border-radius: variaveis.$borda;
+}
+
+@mixin fonte-italic{
+    font-style: variaveis.$fonte-italic;
+}
+
+.linha {
+  .linha__linha--primaria {
+    position: relative;
+    top: variaveis.$espacamento-padrao;
+  }
+  .linha__linha--secundaria {
+    position: relative;
+    bottom: variaveis.$espacamento-padrao;
+  }
+}
+
+img {
+  width: variaveis.$largura;
+}

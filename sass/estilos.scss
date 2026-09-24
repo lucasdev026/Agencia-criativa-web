@@ -3,16 +3,5 @@
 @use 'login';
 @use 'about';
 @use 'rodape';
+@use 'mixins';
 
-img {
-  width: variaveis.$largura;
-}
-
-.linha__linha--primaria {
-  position: relative;
-  top: variaveis.$espacamento-padrao;
-}
-.linha__linha--secundaria {
-  position: relative;
-  bottom: variaveis.$espacamento-padrao;
-}

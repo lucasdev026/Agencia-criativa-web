@@ -1,4 +1,5 @@
 @use 'variaveis';
+@use 'mixins';
 
 
 .login {
@@ -15,6 +16,7 @@
   color: variaveis.$cor-fonte;
   box-shadow: variaveis.$sombra-suave;
 
+
   &__titulo {
     font-size: variaveis.$fonte-for;
     display: grid;
@@ -27,9 +29,11 @@
   }
   &__email {
     font-size: 45px / 1.5;
+    @include mixins.fonte-italic;
   }
   &__senha {
     font-size: 45px / 1.5;
+    @include mixins.fonte-italic;
   }
 
   &:hover {
@@ -37,6 +41,12 @@
   }
   &__button__azul {
     border-radius: variaveis.$borda;
+  }
+  &__login--primario{
+    @include mixins.fonte-italic;
+  }
+  &__login--secundario{
+    @include mixins.fonte-italic;
   }
 
   .checkbox {
@@ -55,5 +65,8 @@
     margin-left: variaveis.$espacamento-padrao * 2.3;
     position: relative;
     right: variaveis.$espacamento-padrao * 1.2;
+    @include mixins.borda;
+    
+
   }
 }
