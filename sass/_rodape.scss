@@ -1,7 +1,8 @@
 @use 'variaveis';
+@use 'mixins';
 
 .rodape {
-  display: grid;
+  @include mixins.grid;
   justify-content: variaveis.$centralizado;
   font-style: variaveis.$estilo;
 }

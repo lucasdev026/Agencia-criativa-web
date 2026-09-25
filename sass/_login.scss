@@ -5,7 +5,7 @@
 .login {
   margin-top: variaveis.$margem;
   margin-bottom: variaveis.$margem;
-  display: grid;
+  @include mixins.grid;
   justify-content: variaveis.$centralizado;
   background: variaveis.$cor-secundario;
   border-radius: variaveis.$borda;
@@ -19,12 +19,12 @@
 
   &__titulo {
     font-size: variaveis.$fonte-for;
-    display: grid;
+    @include mixins.grid;
     justify-content: variaveis.$centralizado;
     font-size: 20px;
   }
   &__subtitulo {
-    display: grid;
+    @include mixins.grid;
     justify-content: variaveis.$centralizado;
   }
   &__email {

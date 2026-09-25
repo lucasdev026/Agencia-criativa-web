@@ -1,19 +1,19 @@
-@use "variaveis";
+@use 'variaveis';
+@use 'mixins';
 
 .about {
-  display: grid;
+  @include mixins.grid;
   justify-content: variaveis.$centralizado;
   padding: variaveis.$espacamento-padrao;
   flex-direction: column;
-  gap: 0.1px;
 
   &__us {
     font-size: variaveis.$fonte;
-    display: grid;
+    @include mixins.grid;
     justify-content: variaveis.$centralizado;
   }
   &__texto {
-    display: grid;
+    @include mixins.grid;
     justify-content: variaveis.$centralizado;
   }
 }

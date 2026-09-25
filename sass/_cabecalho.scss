@@ -1,9 +1,10 @@
 @use "variaveis";
+@use "mixins";
 
 .cabecalho {
   background: variaveis.$cor-primaria;
   color: variaveis.$cor-fonte;
-  display: grid;
+  @include mixins.grid;
   justify-content: center;
   padding: variaveis.$espaco;
   border-radius: variaveis.$borda;

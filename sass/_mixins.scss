@@ -7,6 +7,9 @@
 @mixin fonte-italic{
     font-style: variaveis.$fonte-italic;
 }
+@mixin grid{
+    display: variaveis.$grid;
+}
 
 .linha {
   .linha__linha--primaria {

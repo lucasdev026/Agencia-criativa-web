@@ -1,3 +1,16 @@
+.linha .linha__linha--primaria {
+  position: relative;
+  top: 20px;
+}
+.linha .linha__linha--secundaria {
+  position: relative;
+  bottom: 20px;
+}
+
+img {
+  width: 8%;
+}
+
 .cabecalho {
   background: rgba(248, 15, 3, 0.968627451);
   color: #f9f9f9;
@@ -14,19 +27,6 @@
 .cabecalho__subtitulo {
   text-align: center;
   font-size: 29.1666666667px;
-}
-
-.linha .linha__linha--primaria {
-  position: relative;
-  top: 20px;
-}
-.linha .linha__linha--secundaria {
-  position: relative;
-  bottom: 20px;
-}
-
-img {
-  width: 8%;
 }
 
 .login {
@@ -96,7 +96,6 @@ img {
   justify-content: center;
   padding: 20px;
   flex-direction: column;
-  gap: 0.1px;
 }
 .about__us {
   font-size: 35px;
