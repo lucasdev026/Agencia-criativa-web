@@ -1,14 +1,14 @@
 @use 'variaveis';
 @use 'mixins';
 
-.about {
+.componentes{
   @include mixins.grid;
   justify-content: variaveis.$centralizado;
   padding: variaveis.$espacamento-padrao;
   flex-direction: column;
 
-  &__us {
-    font-size: variaveis.$fonte;
+  &__texto--nos{
+    font-size: variaveis.$fonte-for;
     @include mixins.grid;
     justify-content: variaveis.$centralizado;
   }

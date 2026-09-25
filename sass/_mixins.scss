@@ -11,6 +11,10 @@
     display: variaveis.$grid;
 }
 
+@mixin cor-layout{
+    cor: variaveis.$cor-layout;
+} 
+
 .linha {
   .linha__linha--primaria {
     position: relative;

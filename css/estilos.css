@@ -11,7 +11,7 @@ img {
   width: 8%;
 }
 
-.cabecalho {
+.base {
   background: rgba(248, 15, 3, 0.968627451);
   color: #f9f9f9;
   display: grid;
@@ -20,11 +20,11 @@ img {
   border-radius: 20px;
   box-shadow: 0 6.5px 11px rgba(0, 0, 0, 0.414);
 }
-.cabecalho__title {
+.base__title {
   text-align: center;
   font-size: 35px;
 }
-.cabecalho__subtitulo {
+.base__subtitulo {
   text-align: center;
   font-size: 29.1666666667px;
 }
@@ -91,18 +91,18 @@ img {
   border-radius: 20px;
 }
 
-.about {
+.componentes {
   display: grid;
   justify-content: center;
   padding: 20px;
   flex-direction: column;
 }
-.about__us {
-  font-size: 35px;
+.componentes__texto--nos {
+  font-size: 29.1666666667px;
   display: grid;
   justify-content: center;
 }
-.about__texto {
+.componentes__texto {
   display: grid;
   justify-content: center;
 }

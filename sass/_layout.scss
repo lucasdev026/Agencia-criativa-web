@@ -1,0 +1,6 @@
+@use "variaveis";
+@use "mixins";
+
+body {
+  @include mixins.cor-layout;
+}
