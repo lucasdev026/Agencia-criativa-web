@@ -4,16 +4,16 @@
   border-radius: variaveis.$borda;
 }
 
-@mixin fonte-italic{
-    font-style: variaveis.$fonte-italic;
+@mixin fonte-italic {
+  font-style: variaveis.$fonte-italic;
 }
-@mixin grid{
-    display: variaveis.$grid;
+@mixin grid {
+  display: variaveis.$grid;
 }
 
-@mixin cor-layout{
-    cor: variaveis.$cor-layout;
-} 
+@mixin cor-layout {
+  cor: variaveis.$cor-layout;
+}
 
 .linha {
   .linha__linha--primaria {

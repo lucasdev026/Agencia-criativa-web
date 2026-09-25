@@ -1,7 +1,7 @@
 @use "variaveis";
 @use "mixins";
 
-.base{
+.base {
   background: variaveis.$cor-primaria;
   color: variaveis.$cor-fonte;
   @include mixins.grid;
